@@ -2,7 +2,7 @@
 ## Android Vulnerabilities Dataset
 
 The dataset includes:
- - mined Android vulnerabilities from NVD. 
+ - Mined Android vulnerabilities from NVD. 
  - Android vulnerabilities analysis over time.
  - Android app vulnerability types analysis.
  - Android app Buffer Error vulnerability analysis.
@@ -12,7 +12,7 @@ The dataset includes:
 This dataset includes 2,089 Android vulnerability records and 20 fields. 13 fields were mined from NVD, and 7 fields were added to classify given vulnerabilities. 
 The following tables describe the dataset fields:
 
-### Table 1: NVD Fields
+###  NVD Fields
 | NVD Fields               | Description
 | ----------------------   | ------------------------------------ | 
 | CVE-ID                   | CVE Identifier number.
@@ -29,8 +29,7 @@ The following tables describe the dataset fields:
 | Impact Type              | Clarifies the impact of the vulnerability in terms of Confidentiality, Integrity, Availability.
 | Vulnerability Type       | The vulnerability weakness type that follows the Common Weakness Enumeration (CWE). 
 
-### Table 2: Added Fields
-
+### Added Fields
 | Added Fields             |  Description
 | ----------------------   |------------------------------------| 
 | Software Type            | Indicates whether the the vulnerability is more related to Android OS or Android apps.
@@ -42,7 +41,8 @@ The following tables describe the dataset fields:
 | Note                     | Includes some nots about the vulnerability when available.
 
 
- ### Table 3: Record Category
+ ### Record Category
+ 
 | Record Category                      |  Description
 | --------------------------------     | ------------------------------------ | 
 | Confirmed and patched                | An advisory has been published by the vendor that explains the vulnerability and provides patching information. 
@@ -53,7 +53,7 @@ The following tables describe the dataset fields:
 | Not enough information               | In case that the vulnerability report does not include enough information, such as a proof of concept, patching information, or confirming from the vendor
 | Large-scale experiment               | The vulnerability was discovered through an automated large scale experiment. 
  
-** Note: ** To show records analyzed in our study, filter "Include" feild to "YES". Then, to show Android apps vulnerabilities, filter "Software Type" to "Android app".
+ Note: To show records analyzed in our study, filter "Include" feild to "YES". Then, to show Android apps vulnerabilities, filter "Software Type" to "Android app".
 
 
 
