@@ -68,7 +68,7 @@ The virtual machine includes the source code of the following Android vulnerabil
 - CVE-2016-5200
 - CVE-2017-5014
 
-In addition, the vm has the following static analysis tools install:
+In addition, the vm has the following static analysis tools being installed:
 - RATS
 - Flawfinder
 - Cppcheck
@@ -77,5 +77,5 @@ In addition, the vm has the following static analysis tools install:
 - IKOS
 
 ### Usage
-To analysis the source code of the above vulnerable apps using above static analysis tools execute `run_analysis.sh`  script
+To analyze the source code of the above vulnerable apps using the above static analysis tools, execute `run_analysis.sh`  script in SATs directory which is located on the Desktop.
 
