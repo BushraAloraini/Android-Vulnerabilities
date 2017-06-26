@@ -66,7 +66,6 @@ The virtual machine includes the source code of the following Android vulnerabil
 * CVE-2016-5182
 * CVE-2016-5199
 * CVE-2016-5200
-
 * CVE-2017-5014
 
 In addition, the vm has the following static analysis tools being installed:
