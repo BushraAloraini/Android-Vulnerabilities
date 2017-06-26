@@ -1,5 +1,6 @@
 # Android-Vulnerabilities
-## Android Vulnerabilities Dataset
+
+## 1- Android Vulnerabilities Dataset
 
 The dataset includes:
  - Mined Android vulnerabilities from NVD. 
@@ -7,12 +8,11 @@ The dataset includes:
  - Android app vulnerability types analysis.
  - Android app Buffer Error vulnerability analysis.
  
-
-## Mined Android Vulnerabilities from NVD. 
+### Mined Android Vulnerabilities from NVD. 
 This dataset includes 2,089 Android vulnerability records and 20 fields. 13 fields were mined from NVD, and 7 fields were added to classify given vulnerabilities. 
 The following tables describe the dataset fields:
 
-###  NVD Fields
+####  NVD Fields
 | NVD Fields               | Description
 | ----------------------   | ------------------------------------ | 
 | CVE-ID                   | CVE Identifier number.
@@ -29,7 +29,7 @@ The following tables describe the dataset fields:
 | Impact Type              | Clarifies the impact of the vulnerability in terms of Confidentiality, Integrity, Availability.
 | Vulnerability Type       | The vulnerability weakness type that follows the Common Weakness Enumeration (CWE). 
 
-### Added Fields
+#### Added Fields
 | Added Fields             |  Description
 | ----------------------   |------------------------------------| 
 | Software Type            | Indicates whether the the vulnerability is more related to Android OS or Android apps.
@@ -41,7 +41,7 @@ The following tables describe the dataset fields:
 | Note                     | Includes some nots about the vulnerability when available.
 
 
- ### Record Category
+ #### Record Category
  
 | Record Category                      |  Description
 | --------------------------------     | ------------------------------------ | 
@@ -56,5 +56,26 @@ The following tables describe the dataset fields:
  Note: To show records analyzed in our study, filter "Include" feild to "YES". Then, to show Android apps vulnerabilities, filter "Software Type" to "Android app".
 
 
+## 2- Ubuntu 64-bit 16.4 vm
+The virtual machine includes the source code of the following Android vulnerabilities:
+- CVE-2008-0985
+- CVE-2012-4190
+- CVE-2014-1705
+- CVE-2014-1710
+- CVE-2014-3201
+- CVE-2016-5182
+- CVE-2016-5199
+- CVE-2016-5200
+- CVE-2017-5014
 
+In addition, the vm has the following static analysis tools install:
+- RATS
+- Flawfinder
+- Cppcheck
+- Clang static analyzer
+- Frama-C along with Frama-Clang 
+- IKOS
+
+### Usage
+To analysis the source code of the above vulnerable apps using above static analysis tools execute `run_analysis.sh`  script
 
