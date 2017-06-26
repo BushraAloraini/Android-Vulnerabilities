@@ -58,15 +58,15 @@ The following tables describe the dataset fields:
 
 ## 2- Ubuntu 64-bit 16.4 vm
 The virtual machine includes the source code of the following Android vulnerabilities:
-1- CVE-2008-0985
-2- CVE-2012-4190
-3- CVE-2014-1705
-4- CVE-2014-1710
-5- CVE-2014-3201
-6- CVE-2016-5182
-7- CVE-2016-5199
-8- CVE-2016-5200
-9- CVE-2017-5014
+1. CVE-2008-0985
+2. CVE-2012-4190
+3. CVE-2014-1705
+4. CVE-2014-1710
+5. CVE-2014-3201
+6. CVE-2016-5182
+7. CVE-2016-5199
+8. CVE-2016-5200
+9. CVE-2017-5014
 
 In addition, the vm has the following static analysis tools being installed:
 - RATS
