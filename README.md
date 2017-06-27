@@ -73,8 +73,6 @@ In addition, the vm has the following static analysis tools being installed:
 - Flawfinder
 - Cppcheck
 - Clang static analyzer
-- Frama-C along with Frama-Clang 
-- IKOS
 
 ### Usage
 To analyze the source code of the above vulnerable apps using the above static analysis tools, execute `run_analysis.sh`  script in SATs directory which is located on the Desktop.
