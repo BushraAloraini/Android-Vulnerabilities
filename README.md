@@ -76,4 +76,5 @@ In addition, the vm has the following static analysis tools being installed:
 
 ### Usage
 To analyze the source code of the above vulnerable apps using the above static analysis tools, execute `run_analysis.sh`  script in SATs directory which is located on the Desktop.
-
+VM username:user
+VM passwprd: password
