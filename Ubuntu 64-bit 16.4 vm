@@ -1,4 +1,7 @@
 
-The vm is available here:
+The vm is available here: https://sourceforge.net/projects/android-vulnerabilities
 
-https://sourceforge.net/projects/android-vulnerabilities
+Since the file is so large, use rsync to download it successfully 
+
+Hostname: frs.sourceforge.net
+Path: /home/frs/project/android-vulnerabilities/Ubuntu16
